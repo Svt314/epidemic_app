@@ -10,7 +10,7 @@ Real Disease Data: Historical case data from WHO and health organizations
 
 Disease Information: R0 ranges, incubation periods, and descriptions
 
-#Machine Learning Models
+# Machine Learning Models
 Multiple Classifiers:
 
 Random Forest
@@ -57,7 +57,7 @@ Python 3.8+
 
 pip package manager
 
-#Step 1: Clone the Repository
+# Step 1: Clone the Repository
 bash
 git clone https://github.com/yourusername/epidemic-pattern-analyzer.git
 cd epidemic-pattern-analyzer
@@ -75,8 +75,8 @@ scikit-learn
 xgboost
 lightgbm
 openpyxl
-#Step 3: Prepare Data Files
-#Create a data directory and add the following Excel files:
+# Step 3: Prepare Data Files
+Create a data directory and add the following Excel files:
 Pertussis_reported_cases_and_incidence_2025_18_11_13_34_UTC_1.xlsx
 Mumps reported cases and incidence 2025-18-11 13-36 UTC.xlsx
 Measles reported cases and incidence 2025-18-11 13-23 UTC.xlsx
@@ -88,11 +88,11 @@ Diphtheria_reported_cases_and_incidence_2025_18_11_14_00_UTC.xlsx
 Invasive_meningococcal_disease_reported_cases_and_incidence_2025.xlsx
 Yellow_Fever_YF_reported_cases_and_incidence_2025_18_11_13_40_UTC.xlsx
 
-#Step 4: Run the Application
+# Step 4: Run the Application
 streamlit run app.py
 The application will open in your default web browser at http://localhost:8501.
 
-#Usage
+# Usage
 1. Setting Epidemic Parameters
 Total Population (N): Size of the population being modeled
 Initial States: Set initial Susceptible (S0), Infected (I0), and Recovered (R0) populations
@@ -108,7 +108,7 @@ Top Predictions: See which real diseases match your parameters
 Confidence Scores: Combined AI probability and R0 matching
 Similar Patterns: Find countries with historical similarities
 
-#4. Export Results
+# 4. Export Results
 Download predictions as CSV files
 
 Save analysis for further study
@@ -143,7 +143,7 @@ Ensemble Methods: Combined predictions for improved accuracy
 
 Data Cleaning: Robust handling of missing and noisy data
 
-#Key Features
+# Key Features
 Advanced Feature Extraction
 Statistical measures (mean, std, min, max, median)
 
